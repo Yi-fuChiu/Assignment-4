@@ -168,13 +168,15 @@ footer {
   width: 100%;
 }
 
+.footer-container {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
 .social-icons li {
-  padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
+  display: inline-block;
+  padding: 10px;
 }
 
 
