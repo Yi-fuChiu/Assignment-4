@@ -1,0 +1,206 @@
+/* Useful Information
+
+font-family: 'Patua One', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+
+ .homelink {
+   height: 80px;
+   width: 120px;
+   background-color: red;
+   margin-left: -150px;
+   margin-top: -10px;
+   padding-top: 12px;
+   font-size: 30px;
+   text-align: center;
+ }
+
+
+ ul {
+   padding: 0;
+ }
+
+ li {
+   list-style: none;
+ }
+
+ a {
+   font-family: 'Patua One', cursive;
+   text-transform: uppercase;
+   font-size: 25px;
+ }
+
+
+
+ /*******************
+     Header styles
+ **********************/
+
+ header {
+   height: 80px;
+   background: #161616;
+   padding-top: 10px;
+ }
+
+ /*******************
+        Desktop
+ **********************/
+
+ .desktop-nav ul {
+   float: right;
+   margin-top: 10px;
+   padding: 0;
+   width: calc(100% - 60px);
+   text-align: right;
+ }
+
+ .desktop-nav li {
+   display: inline-block;
+   margin-left: 25px;
+
+ }
+
+ .desktop-nav a,
+ .desktop-nav a:visited {
+   color: white;
+ }
+
+ .desktop-nav a:hover,
+ .desktop-nav a:focus,
+ .desktop-nav a:active {
+   opacity: 0.9;
+   color: white;
+   text-decoration: none;
+ }
+
+ .desktop-nav .homelink {
+   float: left;
+ }
+
+ /*  Mobile */
+ .mobile-nav {
+   display: none;
+   text-align: center;
+ }
+
+ .mobile-nav .homelink {
+   display: inline-block;
+ }
+
+ .mobile-nav .hamburger-container,
+ .mobile-nav .search-container {
+   vertical-align: top;
+   margin-top: 8px;
+   width: 40px;
+   display: inline-block;
+   margin-left: -4px;
+ }
+
+ .mobile-nav .logo-container {
+   display: inline-block;
+   margin-left:150px;
+   width: calc(100% - 250px);
+ }
+
+ .mobile-nav button {
+   background: transparent;
+   border: none;
+   color: white;
+ }
+
+ @media (max-width: 768px) {
+   .mobile-nav {
+       display: block;
+   }
+   .desktop-nav {
+       display: none;
+   }
+ }
+
+/***********************
+      Hero section
+*************************/
+.hero {
+  background-color: black;
+  height: 900px;
+  width: 100%;
+}
+
+.mypic {
+  width: 390px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 30px;
+  float: left;
+  font-size:0;
+}
+
+.content {
+  padding-top: 55px;
+  margin-right: 80px;
+  margin-left: 80px;
+  color: white;
+  text-indent: 50px;
+  line-height: 30px;
+}
+
+/****************
+     Section
+*****************/
+
+/* section {
+  background-color: black;
+  height: 420px;
+} */
+
+
+/*********************
+   Footer Section
+**********************/
+footer {
+  background-color: #111;
+  height: 200px;
+  width: 100%;
+}
+
+.footer-container {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding: 10px;
+}
+
+
+@media (max-width: 700px) {
+  footer {
+    background-color: #111;
+    height: 1000px;
+    width: 100%;
+  }
+
+  .footer-container {
+    display: inline-block;
+    padding: 50px;
+    text-align: left;
+    vertical-align:text-top;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+  }
+
+
+  .footer-container a {
+    text-decoration: none;
+    /* color: #222; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+}
