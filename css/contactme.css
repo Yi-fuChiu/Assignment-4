@@ -1,0 +1,290 @@
+/* Useful Information
+
+font-family: 'Patua One', cursive;
+font-family: 'Russo One', sans-serif;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Roboto', sans-serif;
+ */
+
+
+ .homelink {
+   height: 80px;
+   width: 120px;
+   background-color: red;
+   margin-left: -150px;
+   margin-top: -10px;
+   padding-top: 12px;
+   font-size: 30px;
+   text-align: center;
+ }
+
+
+ ul {
+   padding: 0;
+ }
+
+ li {
+   list-style: none;
+ }
+
+ a {
+   font-family: 'Patua One', cursive;
+   text-transform: uppercase;
+   font-size: 25px;
+ }
+
+
+
+ /*******************
+     Header styles
+ **********************/
+
+ header {
+   height: 80px;
+   background: #161616;
+   padding-top: 10px;
+ }
+
+ /*******************
+        Desktop
+ **********************/
+
+ .desktop-nav ul {
+   float: right;
+   margin-top: 10px;
+   padding: 0;
+   width: calc(100% - 60px);
+   text-align: right;
+ }
+
+ .desktop-nav li {
+   display: inline-block;
+   margin-left: 25px;
+
+ }
+
+ .desktop-nav a,
+ .desktop-nav a:visited {
+   color: white;
+ }
+
+ .desktop-nav a:hover,
+ .desktop-nav a:focus,
+ .desktop-nav a:active {
+   opacity: 0.9;
+   color: white;
+   text-decoration: none;
+ }
+
+ .desktop-nav .homelink {
+   float: left;
+ }
+
+ /*  Mobile */
+ .mobile-nav {
+   display: none;
+   text-align: center;
+ }
+
+ .mobile-nav .homelink {
+   display: inline-block;
+ }
+
+ .mobile-nav .hamburger-container,
+ .mobile-nav .search-container {
+   vertical-align: top;
+   margin-top: 8px;
+   width: 40px;
+   display: inline-block;
+   margin-left: -4px;
+ }
+
+ .mobile-nav .logo-container {
+   display: inline-block;
+   margin-left:150px;
+   width: calc(100% - 250px);
+ }
+
+ .mobile-nav button {
+   background: transparent;
+   border: none;
+   color: white;
+ }
+
+ @media (max-width: 768px) {
+   .mobile-nav {
+       display: block;
+   }
+   .desktop-nav {
+       display: none;
+   }
+ }
+
+/***********************
+      Hero section
+*************************/
+section {
+  background-color: black;
+  height: 900px;
+  width: 100%;
+}
+
+.contactme-container {
+   padding-left: 200px;
+   padding-right:200px;
+  padding-top: 50px;
+
+}
+
+/* The container */
+.userconatainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  color: white;
+}
+
+.container01 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: inline-block;
+    margin-left: 50px;
+      color: white;
+}
+
+/* Hide the browser's default radio button */
+.container01 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container01:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container01 input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container01 input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container01 .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+.emailcontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+    color: white;
+}
+
+.textcontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+    color: white;
+}
+/****************
+     Section
+*****************/
+
+/* section {
+  background-color: black;
+  height: 420px;
+} */
+
+
+/*********************
+   Footer Section
+**********************/
+footer {
+  background-color: #111;
+  height: 200px;
+  width: 100%;
+}
+
+.footer-container {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding: 10px;
+}
+
+
+@media (max-width: 700px) {
+  footer {
+    background-color: #111;
+    height: 1000px;
+    width: 100%;
+  }
+
+  .footer-container {
+    display: inline-block;
+    padding: 50px;
+    text-align: left;
+    vertical-align:text-top;
+    font-family: 'Patua One', cursive;
+    font-size: 20px;
+  }
+
+
+  .footer-container a {
+    text-decoration: none;
+    /* color: #222; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+}
