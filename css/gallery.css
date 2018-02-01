@@ -131,7 +131,8 @@ font-family: 'Roboto', sans-serif;
 }
 
 img {
-  width: 600px;
+  width: 580px;
+  padding-top: 10px;
 }
 
 .card {
