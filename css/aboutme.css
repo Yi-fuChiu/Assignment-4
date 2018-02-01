@@ -31,7 +31,7 @@ font-family: 'Roboto', sans-serif;
  a {
    font-family: 'Patua One', cursive;
    text-transform: uppercase;
-   font-size: 25px;
+   font-size: 20px;
  }
 
 
@@ -60,7 +60,7 @@ font-family: 'Roboto', sans-serif;
 
  .desktop-nav li {
    display: inline-block;
-   margin-left: 25px;
+   margin-left: 20px;
 
  }
 
