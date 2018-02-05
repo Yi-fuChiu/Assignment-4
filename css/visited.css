@@ -121,48 +121,6 @@ font-family: 'Roboto', sans-serif;
    }
  }
 
-/***********************
-      Hero section
-*************************/
-.hero {
-  background-color: black;
-  height: auto;
-  width: 100%;
-}
-
-img {
-  width: 550px;
-  padding-top: 10px;
-}
-
-.card {
-  width: 572px;
-  display: inline-block;
-  margin: 0 20px 20px 0;
-  background: white;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-  }
-
-.card description-container {
-  padding-left: 10px
-}
-
-.card .blog-title {
-  font-weight: bold;
-  padding-top: 15px;
-}
-
-.card .blog-author {
-  color: #777;
-  font-size: 0.8em;
-}
-
-.card-container {
-  padding-top: 50px;
-  text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-}
 
 /****************
      Section
@@ -173,7 +131,54 @@ img {
   height: 420px;
 } */
 
+section {
+  width: 100%
+  height: auto;
+}
 
+.box {
+  background-color: #dddddd;
+  width: auto;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  box-shadow:3px 3px 30px gray;padding:0px;
+}
+
+.profile {
+      border-radius: 50%;
+      border:5px solid #fff;
+      height:inherit;
+      width:expression(document.body.clientWidth&gt;550?"550px""auto"); /*若圖片大於550px就調整*/
+      overflow:hidden;       /*超過不顯示*/
+      max-width: 200px;
+      max-height: 200px;
+      float: left;
+      font-size:0;
+      margin: 20px;
+  }
+
+  .image {
+      display: inline-block;
+      text-align: center;
+      padding-left: 0px;
+      padding-right: 20px;
+  }
+
+ p {
+   font-family: 'Patua One', cursive;
+   text-indent: 30px;
+   line-height: 25px;
+   text-align:justify
+ }
+
+ h5 {
+   text-align: left;
+   font-family: 'Patua One', cursive;
+   font-size: 25px;
+ }
 /*********************
    Footer Section
 **********************/

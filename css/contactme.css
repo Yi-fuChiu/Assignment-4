@@ -126,15 +126,8 @@ font-family: 'Roboto', sans-serif;
 *************************/
 section {
   background-color: black;
-  height: 900px;
+  height: auto;
   width: 100%;
-}
-
-.contactme-container {
-   padding-left: 200px;
-   padding-right:200px;
-  padding-top: 50px;
-
 }
 
 /* The container */
@@ -161,7 +154,8 @@ section {
     user-select: none;
     display: inline-block;
     margin-left: 50px;
-      color: white;
+    color: white;
+    padding-bottom: 40px;
 }
 
 /* Hide the browser's default radio button */
@@ -218,37 +212,34 @@ section {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 40px;
   cursor: pointer;
   font-size: 22px;
-    color: white;
+  color: white;
 }
 
 .textcontainer {
   display: block;
   position: relative;
   padding-left: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 80px;
   cursor: pointer;
   font-size: 22px;
-    color: white;
+  color: white;
 }
-/****************
-     Section
-*****************/
 
-/* section {
-  background-color: black;
-  height: 420px;
-} */
-
+.contactme-container {
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 /*********************
    Footer Section
 **********************/
 footer {
   background-color: #111;
-  height: 200px;
+  height: auto;
   width: 100%;
 }
 
@@ -256,6 +247,8 @@ footer {
   text-align: center;
   color: white;
   padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Paytone One', sans-serif;
 }
 
 .social-icons li {
@@ -267,24 +260,23 @@ footer {
 @media (max-width: 700px) {
   footer {
     background-color: #111;
-    height: 1000px;
+    height: auto;
     width: 100%;
   }
 
   .footer-container {
     display: inline-block;
     padding: 50px;
-    text-align: left;
+    text-align: center;
     vertical-align:text-top;
     font-family: 'Patua One', cursive;
     font-size: 20px;
   }
 
-
   .footer-container a {
     text-decoration: none;
     /* color: #222; */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Patua One', cursive;
     font-size: 16px;
   }
 }
