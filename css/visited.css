@@ -160,21 +160,22 @@ section {
       margin: 20px;
   }
 
-  .image {
+.image {
       display: inline-block;
       text-align: center;
       padding-left: 0px;
       padding-right: 20px;
   }
 
- p {
+p {
    font-family: 'Patua One', cursive;
+   padding-left: 20px;
    text-indent: 30px;
    line-height: 25px;
    text-align:justify
  }
 
- h5 {
+h5 {
    text-align: left;
    font-family: 'Patua One', cursive;
    font-size: 25px;
@@ -203,13 +204,13 @@ footer {
 
 
 @media (max-width: 700px) {
-  footer {
+footer {
     background-color: #111;
     height: auto;
     width: 100%;
   }
 
-  .footer-container {
+.footer-container {
     display: inline-block;
     padding: 50px;
     text-align: center;
@@ -218,7 +219,7 @@ footer {
     font-size: 20px;
   }
 
-  .footer-container a {
+.footer-container a {
     text-decoration: none;
     /* color: #222; */
     font-family: 'Patua One', cursive;

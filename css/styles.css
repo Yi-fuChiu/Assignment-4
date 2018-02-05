@@ -8,7 +8,7 @@ font-family: 'Roboto', sans-serif;
  */
 
 
- .homelink {
+.homelink {
    height: 80px;
    width: 120px;
    background-color: red;
@@ -20,15 +20,15 @@ font-family: 'Roboto', sans-serif;
  }
 
 
- ul {
+ul {
    padding: 0;
  }
 
- li {
+li {
    list-style: none;
  }
 
- a {
+a {
    font-family: 'Patua One', cursive;
    text-transform: uppercase;
    font-size: 20px;
@@ -40,7 +40,7 @@ font-family: 'Roboto', sans-serif;
      Header styles
  **********************/
 
- header {
+header {
    height: 80px;
    background: #161616;
    padding-top: 10px;
@@ -50,7 +50,7 @@ font-family: 'Roboto', sans-serif;
         Desktop
  **********************/
 
- .desktop-nav ul {
+.desktop-nav ul {
    float: right;
    margin-top: 10px;
    padding: 0;
@@ -58,20 +58,20 @@ font-family: 'Roboto', sans-serif;
    text-align: right;
  }
 
- .desktop-nav li {
+.desktop-nav li {
    display: inline-block;
    margin-left: 20px;
 
  }
 
- .desktop-nav a,
- .desktop-nav a:visited {
+.desktop-nav a,
+.desktop-nav a:visited {
    color: white;
  }
 
- .desktop-nav a:hover,
- .desktop-nav a:focus,
- .desktop-nav a:active {
+.desktop-nav a:hover,
+.desktop-nav a:focus,
+.desktop-nav a:active {
    opacity: 0.9;
    color: white;
    text-decoration: none;
@@ -259,14 +259,14 @@ a:hover
 /***********************
       Hero section
 *************************/
-h1 {
+/* h1 {
   color: white;
   font-family: 'Berkshire Swash', cursive;
 }
 
 p {
   color: white;
-}
+} */
 
 .hero{
   background-image: url('../img/camera.jpg');
@@ -280,9 +280,22 @@ p {
      rgba(0, 0, 0, 0.5)
      ),
   url('../img/camera.jpg');
-
   text-align: center;
   padding-top: 600px;
+}
+
+.slogan {
+  color: white;
+  font-size: 80px;
+  font-family: 'Berkshire Swash', cursive;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.maintext {
+  color: white;
+  font-size: 40px;
+  font-family: 'Berkshire Swash', cursive;
+  text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .button01 a {
