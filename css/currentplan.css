@@ -138,7 +138,7 @@ section {
 .title {
   color: white;
   padding-top: 50px;
-  padding-left: 150px;
+  padding-left: 50px;
   padding-right: 150px;
 }
 
@@ -149,10 +149,9 @@ th {
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    margin-right: 150px;
-    margin-left: 150px;
     margin-top: 20px;
     margin-bottom: 50px;
+    width: 100%;
 }
 
 td, th {
