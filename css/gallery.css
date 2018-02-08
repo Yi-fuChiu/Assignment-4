@@ -277,20 +277,13 @@ img {
 @media (max-width: 768px) {
   img {
     width: 300px;
+    padding-top: 5px;
   }
 
   .card {
-    width: 320px;
+    width: 310px;
+  }
 }
-/****************
-     Section
-*****************/
-
-/* section {
-  background-color: black;
-  height: 420px;
-} */
-
 
 /*********************
    Footer Section
