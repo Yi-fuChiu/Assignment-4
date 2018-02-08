@@ -317,11 +317,11 @@ p {
     padding: 5em;
     padding-top: 0px;
   }
-  .hero-text-container h1 {
-   font-size: 32px;
+  .slogan h1 {
+   font-size: 25px;
    margin-bottom: 20px;
   }
-  .hero-tex-container p {
+  .maintext p {
     font-size: 16px;
     margin-bottom: 40px;
   }
@@ -374,22 +374,21 @@ section {
   .profile {
       border-radius: 50%;
       border:5px solid #fff;
-      max-width:550px;
       height:inherit;
       width:expression(document.body.clientWidth&gt;550?"550px""auto"); /*若圖片大於550px就調整*/
       overflow:hidden;       /*超過不顯示*/
-      max-width: 300px;
-      max-height: 300px;
+      max-width: 200px;
+      max-height: 200px;
 
   }
   .image {
-      padding-left: 80px;
+      padding-left: 50px;
       justify-content: center;
       text-align: center;
   }
   .img-container {
     padding-top: 50px;
-    margin-left:50px;
+    margin-left:35px;
     width: calc(100% - 100px);
   }
 
@@ -397,7 +396,7 @@ section {
     font-family: 'Russo One', sans-serif;
     padding-top: 10px;
     padding-bottom: 30px;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 /*********************
