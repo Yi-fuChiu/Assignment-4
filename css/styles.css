@@ -302,7 +302,6 @@ p {
   }
   .hero-text-container .button {
     margin-bottom: 40px;
-
   }
 }
 /****************
@@ -338,6 +337,7 @@ section {
   font-family: 'Russo One', sans-serif;
   padding-top: 10px;
   font-size: 20px;
+  color: white;
 }
 
 @media (max-width: 700px) {
@@ -397,7 +397,6 @@ footer {
 
 .container h4 {
   color: white;
-
 }
 
 .footer-container a {
@@ -405,6 +404,7 @@ footer {
   color: inherit;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  color: grey;
 }
 
 
@@ -432,7 +432,6 @@ footer {
 
   .footer-container a {
     text-decoration: none;
-    /* color: #222; */
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
   }
