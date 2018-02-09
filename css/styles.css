@@ -319,6 +319,7 @@ section {
     overflow:hidden;       /*超過不顯示*/
     max-width: 250px;
     max-height: 250px;
+    width: calc(100% - 60px);
 }
 .image {
     display: inline-block;
