@@ -311,6 +311,7 @@ p {
 section {
   background-color: black;
   height: auto;
+  width: calc(100% - 60px);
 }
 
 .profile {
@@ -319,14 +320,13 @@ section {
     height:inherit;
     width:expression(document.body.clientWidth&gt;550?"550px""auto"); /*若圖片大於550px就調整*/
     overflow:hidden;       /*超過不顯示*/
-    max-width: 280px;
-    max-height: 280px;
+    max-width: 250px;
+    max-height: 250px;
 }
 .image {
     display: inline-block;
     text-align: center;
     padding-left: 20px;
-    padding-right: 20px;
 }
 .img-container {
   padding-top: 40px;
